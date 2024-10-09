@@ -29,10 +29,13 @@ html,body {
     justify-content: space-between;
     width: 1222px;
     height: 56px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navbar-right {
     display: flex;
+    justify-content: space-between;
+    width: 711px;
 }
 
 .navbar-right > * {
@@ -43,4 +46,105 @@ html,body {
     justify-content: space-between;
     width: 294px;
     height: 56px;
+}
+
+.navbar-button-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 56px;
+    border: solid 2px #EDEDED;
+    border-radius: 12px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+
+}
+
+.navbar-button-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #FF5634;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-links {
+    align-items: center;
+}
+
+.navbar-links-left {
+    display: flex;
+    justify-content: space-evenly;
+    width: 317px;
+}
+
+.navbar-links-right {
+    display: flex;
+    align-items: center;
+    width: 85px;
+    margin-left: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 912px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 1222px;
+    height: 710px;
+}
+
+.header-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 586px;
+    height: 586px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-text-buttons {
+    display: flex;
+    width: 586px;
+    height: 73px;
+}
+
+.header-button-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 247px;
+    height: 73px;
+    border-radius: 12px;
+    background-color: #FF5634;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.header-button-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 73px;
+    border: solid 2px #EDEDED;
+    border-radius: 12px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    margin-left: 30px;
 }
