@@ -148,3 +148,26 @@ html,body {
     color: black;
     margin-left: 30px;
 }
+
+.header-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 586px;
+    height: 91px;
+}
+
+.header-stats-box {
+    height: 91px;
+}
+
+.header-food {
+    position: relative;
+    top: -746px;
+    left: 718px;
+}
+
+.header-phone {
+    position: relative;
+    top: -1600px;
+    left: 600px;
+}
