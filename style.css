@@ -23,6 +23,18 @@ html,body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
+.hr {
+    width: 1222px;
+    height: 1px;
+    background-color: #CACACA;
+    margin: 141px auto;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-content {
     display: flex;
     align-items: center;
@@ -31,6 +43,8 @@ html,body {
     height: 56px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Починаеється Футер */
 
 .navbar-right {
     display: flex;
@@ -99,6 +113,8 @@ html,body {
     width: 1440px;
     height: 912px;
 }
+
+
 
 .header-content {
     display: flex;
@@ -170,4 +186,85 @@ html,body {
     position: relative;
     top: -1600px;
     left: 600px;
+}
+
+.trusted-restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.system-text {
+    margin-bottom: 76px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.system {
+    display: flex;
+    width: 1222px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.system-component {
+    width: 350px;
+    height: 430px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.system-component-image {
+    display: flex;
+    margin: auto;
+}
+
+.system-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 473px;
+    height: 73px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.system-button-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 247px;
+    height: 73px;
+    border-radius: 12px;
+    background-color: #FF5634;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.system-button-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 73px;
+    border: solid 2px #EDEDED;
+    border-radius: 12px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    margin-left: 30px;
+}
+
+.1 {
+    display: flex;
+    justify-self: start;
+
+}
+
+.2 {
+
+}
+
+.3 {
+
 }
